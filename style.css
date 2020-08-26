@@ -518,6 +518,7 @@ button {
 }
 
 .scrollToTop {
+    color: black;
     width: 40px;
     height: 40px;
     position: fixed;
@@ -650,7 +651,6 @@ a[data-lightbox]:hover img {
 p,
 q,
 label,
-.btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
@@ -693,12 +693,13 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    color: #FFF;
 }
 
 .h1 {
@@ -792,15 +793,17 @@ h3 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #A85C39
+    ;
 }
 
 .tc-white {
-    color: #F3976C;
+    color: #FFF;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #A85C39
+;
     color: #FFFFFF;
 }
 
